@@ -6,7 +6,7 @@
 
 | 资料 | 阶段 | 说明 |
 |------|------|------|
-| [Anthropic《Building Effective Agents》](https://www.anthropic.com/engineering/building-effective-agents) | 一 | 最重要。Workflow vs Agent、五种常见模式、何时不用框架 |
+| [Anthropic《Building Effective Agents》](https://www.anthropic.com/engineering/building-effective-agents) | 一 | 最重要。Workflow vs Agent、五种常见模式、何时不用框架（[已转存本地副本](papers/Building_Effective_Agents_Anthropic.md)） |
 | [OpenAI《A Practical Guide to Building Agents》](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) | 一 | 产品视角，适合补充 |
 | [12-factor agents](https://github.com/humanlayer/12-factor-agents) | 四 | 12 条 Agent 工程原则，每条都有代码级解释 |
 | [Anthropic《Effective Context Engineering for AI Agents》](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | 三 | 上下文工程的权威文章 |

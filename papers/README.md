@@ -14,8 +14,8 @@
 
 另有非论文但同样重要的两份指南（在路线中优先级高于所有论文）：
 
+- [Anthropic《Building Effective Agents》](Building_Effective_Agents_Anthropic.md) —— 已转存为 Markdown，阶段一阅读（[原文链接](https://www.anthropic.com/engineering/building-effective-agents)）
 - [OpenAI《A Practical Guide to Building Agents》](OpenAI_A_Practical_Guide_to_Building_Agents.pdf) —— 阶段一阅读
-- Anthropic《Building Effective Agents》是网页文章，链接见 [resources.md](../resources.md)，建议收藏网页原文
 
 ## 一个建议
 
