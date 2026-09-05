@@ -97,7 +97,7 @@ flowchart TB
 
 | 资料 | 说明 |
 |------|------|
-| [Anthropic《Building Effective Agents》](https://www.anthropic.com/engineering/building-effective-agents) | 本阶段最重要的文章，Workflow/Agent 区分和各种模式都出自这里 |
+| [Anthropic《Building Effective Agents》](../papers/Building_Effective_Agents_Anthropic.md) | 本阶段最重要的文章。**配精读笔记：[notes-building-effective-agents.md](notes-building-effective-agents.md)**（结构拆解 + 每个模式讲解 + 自测题） |
 | [OpenAI《A Practical Guide to Building Agents》](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) | 偏产品视角的补充阅读 |
 | [ReAct 论文](https://arxiv.org/abs/2210.03629) | 只需要精读第 2 节和图 1 |
 
