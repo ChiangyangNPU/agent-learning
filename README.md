@@ -29,6 +29,7 @@ agent-learning/
 ├── 02-hands-on/            # 阶段二：徒手写一个最小 Agent（最重要）
 ├── 03-concepts/            # 阶段三：补齐关键概念（MCP / 上下文工程 / 评测）
 ├── 04-frameworks/          # 阶段四：框架原理与源码阅读
+├── papers/                 # 论文原文（含阅读顺序指南，见 papers/README.md）
 └── projects/               # 边学边做的四个实战项目
 ```
 
