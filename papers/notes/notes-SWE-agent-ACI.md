@@ -20,15 +20,15 @@ Agent 循环仍是 ReAct 式的（thought + command + feedback），创新全在
 
 ```mermaid
 flowchart LR
-    A[LM Agent] -->|thought + 命令| ACI["ACI 四大件"]
-    subgraph ACI["Agent-Computer Interface"]
-        S[搜索/导航<br/>find_file / search_file / search_dir]
-        V[文件查看器<br/>open / scroll / goto]
-        E[编辑器<br/>edit + 内置 lint]
-        C[上下文管理<br/>历史处理器]
+    A["LM Agent"] -->|"thought + 命令"| S & V & E & C
+    S & V & E & C -->|"真实、简明的反馈"| A
+    S & V & E & C --> Computer[("仓库 / 测试环境")]
+    subgraph ACI["ACI 四大件"]
+        S["搜索/导航<br/>find_file / search_file / search_dir"]
+        V["文件查看器<br/>open / scroll / goto"]
+        E["编辑器<br/>edit + 内置 lint"]
+        C["上下文管理<br/>历史处理器"]
     end
-    ACI -->|真实、简明的反馈| A
-    ACI --> Computer[(仓库 / 测试环境)]
 ```
 
 **四大件的设计细节（每一条都是踩坑后的对策，逐条品味）：**
