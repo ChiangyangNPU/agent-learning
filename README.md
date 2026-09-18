@@ -53,10 +53,25 @@ flowchart TD
 
 ## 进度追踪
 
+### 阶段
+
 - [ ] 阶段一：理解本质
 - [ ] 阶段二：徒手写最小 Agent
 - [ ] 阶段三：MCP / 上下文工程 / 评测
 - [ ] 阶段四：框架原理与源码阅读
+
+### 论文精读（索引见 [papers/README.md](papers/README.md)）
+
+- [x] Anthropic《Building Effective Agents》→ [笔记](01-fundamentals/notes-building-effective-agents.md)
+- [x] ReAct → [笔记](papers/notes/notes-ReAct.md)
+- [x] OpenAI《Practical Guide》→ [笔记](papers/notes/notes-OpenAI-Guide.md)
+- [x] Toolformer → [笔记](papers/notes/notes-Toolformer.md)
+- [x] Reflexion → [笔记](papers/notes/notes-Reflexion.md)
+- [x] Tree of Thoughts → [笔记](papers/notes/notes-Tree-of-Thoughts.md)
+- [x] SWE-agent / ACI → [笔记](papers/notes/notes-SWE-agent-ACI.md)
+
+### 项目
+
 - [ ] 项目 1：命令行文件助手
 - [ ] 项目 2：网页信息搜集 Agent
 - [ ] 项目 3：个人知识库问答
