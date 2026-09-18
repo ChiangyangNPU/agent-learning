@@ -68,9 +68,11 @@ def run_agent(user_input: str, max_turns: int = 10) -> str:
             return msg.content
 
         for call in msg.tool_calls:                # 执行模型请求的每个工具
-            fn = TOOL_IMPLS[call.function.name]
             args = json.loads(call.function.arguments)
             try:
+                fn = TOOL_IMPLS.get(call.function.name)
+                if fn is None:                     # ★ 模型偶尔会幻觉出未注册的工具名
+                    raise KeyError(f"未注册的工具: {call.function.name}")
                 result = fn(**args)
             except Exception as e:
                 result = f"工具执行出错: {e}"       # ★ 错误也是信息，喂回给模型
@@ -89,6 +91,7 @@ def run_agent(user_input: str, max_turns: int = 10) -> str:
 3. **死循环烧钱** → 忘了 max_turns；或者工具结果没有正确喂回（`tool_call_id` 对不上）
 4. **JSON 解析报错** → 模型偶尔生成不合法的参数，要有容错重试
 5. **忘记把 assistant 的 tool_calls 消息 append 回去** → API 会报错，消息列表必须完整
+6. **模型调用不存在的工具** → 模型偶尔会幻觉出未注册的工具名，注册表查找用 `TOOL_IMPLS.get(name)` 兜底，把"工具不存在"当错误信息喂回，模型通常会自行纠正
 
 ## 延伸练习（学有余力）
 
