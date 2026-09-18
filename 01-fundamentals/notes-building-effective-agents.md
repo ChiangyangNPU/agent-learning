@@ -1,7 +1,7 @@
 # 精读笔记：Building Effective Agents
 
 > 原文：[Building_Effective_Agents_Anthropic.md](../papers/Building_Effective_Agents_Anthropic.md)（建议对照原文读）
-> 本笔记 = 结构拆解 + 逐节讲解 + 自测题。作者 Erik slavakov（prompt eng）与 Barry Zhang（agent eng），2024-12。
+> 本笔记 = 结构拆解 + 逐节讲解 + 自测题。作者 Erik Schluntz 与 Barry Zhang，2024-12。
 
 ---
 
