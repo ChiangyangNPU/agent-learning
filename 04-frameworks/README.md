@@ -58,7 +58,7 @@ flowchart TB
 
 资料：
 - [OpenAI Agents SDK 文档](https://openai.github.io/openai-agents-python/)
-- 对照阅读 Anthropic 的观点：Anthropic 倾向于不用重型框架（见《Building Effective Agents》末尾）
+- 对照阅读 Anthropic 的观点：Anthropic 建议直接用 LLM API 起步，若用框架必须读懂底层代码（见《Building Effective Agents》"When and how to use frameworks" 一节，[精读笔记 §2.3](../01-fundamentals/notes-building-effective-agents.md) 有拆解）
 
 ## 三、读开源 Agent 源码（选一个深入）
 
