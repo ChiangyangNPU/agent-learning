@@ -19,6 +19,8 @@ flowchart TD
     T1 --> T2 --> T3 --> T4 --> T5
 ```
 
+练习代码统一放 `exercises/`（如 [exercises/ex1_single_tool_call.py](exercises/ex1_single_tool_call.py)），做题手记（坑本）写在 [exercises/NOTES.md](exercises/NOTES.md)。
+
 ## 参考代码骨架（Python + 通用伪代码）
 
 这是练习②的核心结构，建议先自己写，卡住了再对照：
